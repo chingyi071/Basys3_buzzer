@@ -4,6 +4,10 @@ Use verilog to control buzzer
 - Introduction
   - Use a frequency divider and counter to generate sound and time step, respectively. Sound is given in module input, and this module input is the output of multiplexer. And time step determine the note by this multiplexer. To apply your own song, you can edit this multiplexer and create your tone schedule.
   
+- Code
+  - single_tone: Simply use a counter to play single tone
+  - sentence: Use a 4-bit counter to display a sentence
+  
 - Connection
   - In this project, we make BASYS3 control buzzer, using pin JC4 and a buzzer.
   - ![picture](https://github.com/chingyi071/Basys3_buzzer/blob/master/schematic.png)
